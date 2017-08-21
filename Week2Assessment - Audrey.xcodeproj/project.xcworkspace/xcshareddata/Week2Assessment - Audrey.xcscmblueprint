@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20B9316662DD456F46004699A899A3C67C4143B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20B9316662DD456F46004699A899A3C67C4143B3" : 9223372036854775807,
+    "D5E9824991D99108618C6883B53D0A8922B967DA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E251FA71-16F6-4F23-BC35-6A600C5537E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20B9316662DD456F46004699A899A3C67C4143B3" : "Week2Assessment%20-%20Audrey\/",
+    "D5E9824991D99108618C6883B53D0A8922B967DA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Week2Assessment - Audrey",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Week2Assessment - Audrey.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aulimge\/AudAssessment2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20B9316662DD456F46004699A899A3C67C4143B3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aulimge\/AudreyFiles.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D5E9824991D99108618C6883B53D0A8922B967DA"
+    }
+  ]
+}

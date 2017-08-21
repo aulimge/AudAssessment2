@@ -10,6 +10,7 @@ import UIKit
 
 
 
+
 class DetailViewController: UIViewController {
     
     
@@ -19,8 +20,8 @@ class DetailViewController: UIViewController {
     
     
     var product : Product = Product()
+    var delegate : DidTapOnBackButtonDelegate? = nil
     
-
     
     
     override func viewDidLoad() {
@@ -45,6 +46,7 @@ class DetailViewController: UIViewController {
         
         self.title = productNameLabel.text
         
+       
         
     }
 
@@ -60,7 +62,9 @@ class DetailViewController: UIViewController {
     @IBAction func buttonChangeTitle(_ sender: Any) {
        let currProdName = productNameLabel.text
        self.title = currProdName
-    
+        
+        delegate?.didTapOnBackButton(data: currProdName!)
+        
     }
    
     func editButtonPressed(){
@@ -94,12 +98,10 @@ class DetailViewController: UIViewController {
 
         product.name = productNameLabel.text!
         product.detail = productLaunchDateLabel.text!
-        //        }
         
-    
+       // state = product.name
         
         super.viewWillDisappear(true)
-        
         
     }
 
@@ -119,8 +121,15 @@ class DetailViewController: UIViewController {
         
         destination.productURLString = product.url
         
+
+        
         
     }
     
+    
+}
 
+protocol DidTapOnBackButtonDelegate {
+    func didTapOnBackButton(data : String)
+    
 }

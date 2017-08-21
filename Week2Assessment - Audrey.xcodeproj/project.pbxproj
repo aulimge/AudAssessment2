@@ -16,6 +16,7 @@
 		F87FDD051F469AF400083A2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDD041F469AF400083A2B /* DetailViewController.swift */; };
 		F87FDD071F46AC2700083A2B /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDD061F46AC2700083A2B /* ProductTableViewCell.swift */; };
 		F87FDD091F46BC5D00083A2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87FDD081F46BC5D00083A2B /* ViewController.swift */; };
+		F88C177D1F4AB1D100EE469C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88C177C1F4AB1D100EE469C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F87FDD041F469AF400083A2B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F87FDD061F46AC2700083A2B /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		F87FDD081F46BC5D00083A2B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F88C177C1F4AB1D100EE469C /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				F87FDCF21F468A4200083A2B /* Main.storyboard */,
 				F8608BB11F46E19E0052DFE5 /* WebViewController.swift */,
 				F87FDD041F469AF400083A2B /* DetailViewController.swift */,
+				F88C177C1F4AB1D100EE469C /* File.swift */,
 				F87FDD021F46933A00083A2B /* Product.swift */,
 				F87FDCF51F468A4200083A2B /* Assets.xcassets */,
 				F87FDCF71F468A4200083A2B /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 			files = (
 				F87FDD091F46BC5D00083A2B /* ViewController.swift in Sources */,
 				F8608BB21F46E19E0052DFE5 /* WebViewController.swift in Sources */,
+				F88C177D1F4AB1D100EE469C /* File.swift in Sources */,
 				F87FDCEF1F468A4200083A2B /* AppDelegate.swift in Sources */,
 				F87FDD071F46AC2700083A2B /* ProductTableViewCell.swift in Sources */,
 				F87FDD031F46933A00083A2B /* Product.swift in Sources */,

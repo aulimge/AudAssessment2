@@ -13,15 +13,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var tableView1: UITableView!
     
+      
     var products : [Product] = []
     
-  
-       
+    var passProductName : String = ""
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        
+       // view.delegate = self
+        
         
         //tableView1.dataSource = self
         tableView1.dataSource = self
@@ -45,8 +49,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView1.reloadData()
         
         //set the Navigation Title to product name
-        self.title = state?
-
+        
+        
+        
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -57,7 +62,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewWillAppear(_ animated: Bool) {
         tableView1.reloadData()
-    
+        
     }
     
 
@@ -102,6 +107,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             else {return}
         
         destination.product = selectedProduct
+        destination.delegate = self   ///tap on Edit Button
+        
         //3. present it
         // present(destination, animated: true, completion: nil)
         navigationController?.pushViewController(destination, animated: true)
@@ -159,3 +166,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
      */
     
 }
+
+
+extension ViewController : DidTapOnBackButtonDelegate {
+    func didTapOnBackButton(data : String) {
+         self.title = data    }
+
+
+}
+
+
